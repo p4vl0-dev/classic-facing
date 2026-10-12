@@ -2,6 +2,8 @@
 
 A Foundry VTT v14 module that rotates or flips tokens based on movement direction and draws a facing indicator. A fork of [About Face](https://github.com/mclemente/about-face) but with **classic turn animation speeds** — no accelerated or slowed-down flips.
 
+https://github.com/user-attachments/assets/0300af5b-e1f4-456e-b1be-a38c2bdcca06
+
 ## Features
 
 - 🔄 **Rotate or flip** tokens on movement (rotate / flip-h / flip-v).
