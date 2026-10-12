@@ -1,0 +1,89 @@
+{
+	"CLASSIC_FACING": {
+		"Tab": "Classic Facing",
+		"Direction": {
+			"Right": "Right",
+			"Left": "Left",
+			"Down": "Down",
+			"Up": "Up"
+		},
+		"FlipOrRotate": {
+			"Global": "Global",
+			"Rotate": "Rotate",
+			"FlipH": "Flip horizontally",
+			"FlipV": "Flip vertically"
+		},
+		"IndicatorMode": {
+			"Off": "Disabled",
+			"Hover": "On hover",
+			"Always": "Always"
+		},
+		"Settings": {
+			"ArrowColor": {
+				"Name": "Indicator color",
+				"Hint": "Color of the facing indicator."
+			},
+			"ArrowDistance": {
+				"Name": "Indicator distance",
+				"Hint": "How far from the token center the indicator is drawn. 1.0 is the token edge."
+			},
+			"IndicatorSize": {
+				"Name": "Indicator size",
+				"Hint": "Scale multiplier for the indicator."
+			},
+			"IndicatorModeNpc": {
+				"Name": "Indicator visibility (NPC)",
+				"Hint": "When to show the indicator on tokens without a player owner."
+			},
+			"IndicatorModePc": {
+				"Name": "Indicator visibility (PC)",
+				"Hint": "When to show the indicator on tokens owned by a player."
+			},
+			"IndicatorShape": {
+				"Name": "Indicator shape",
+				"Hint": "Shape used to draw the facing indicator.",
+				"Arrow": "Arrow",
+				"Line": "Chevron"
+			},
+			"CombatOnly": {
+				"Name": "Only during combat",
+				"Hint": "Show indicators only while a combat is running."
+			},
+			"HideOnDefeated": {
+				"Name": "Hide on defeated tokens",
+				"Hint": "Hide the indicator on tokens with the defeated status."
+			},
+			"LockToGrid": {
+				"Name": "Snap facing to the grid",
+				"Hint": "Limit facing to grid directions: 8 on square grids, 6 on hex grids."
+			},
+			"FlipOrRotate": {
+				"Name": "Turn mode",
+				"Hint": "How tokens turn when they move: rotate the token or mirror its art. Can be overridden per token."
+			},
+			"FacingDirection": {
+				"Name": "Default facing",
+				"Hint": "The direction token art faces by default. Can be overridden per token."
+			}
+		},
+		"TokenConfig": {
+			"DisableIndicator": {
+				"Name": "Disable indicator"
+			},
+			"FlipOrRotate": {
+				"Name": "Turn mode"
+			},
+			"FacingDirection": {
+				"Name": "Default facing"
+			},
+			"RotationOffset": {
+				"Name": "Rotation offset (degrees)",
+				"Hint": "Added to the computed rotation in Rotate mode. Use it for art that does not face down."
+			},
+			"FlipDisabled": {
+				"Name": "Disable turn animation?",
+				"Hint": "The module will not mirror this token and will not drive its rotation: the turn follows Foundry's own automatic rotation settings. You can still rotate or flip the token by hand."
+			}
+		}
+	}
+}

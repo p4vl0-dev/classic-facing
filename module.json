@@ -1,0 +1,37 @@
+{
+    "id": "classic-facing",
+    "title": "Classic Facing",
+	"version": "1.0.0",
+    "description": "Rotates or flips tokens based on movement direction and draws facing indicators. A Foundry VTT v14 adaptation of About Face.",
+    "authors": [
+        {
+            "name": "Matheus Clemente",
+            "discord": "mclemente"
+        },
+        {
+            "name": "Guitarist",
+            "discord": "mclemente"
+        }
+    ],
+    "esmodules": [
+        "module/classic-facing.js"
+    ],
+    "compatibility": {
+        "minimum": "14",
+        "verified": "14"
+    },
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "ru",
+            "name": "Русский",
+            "path": "lang/ru.json"
+        }
+    ],
+    "manifest": "https://raw.githubusercontent.com/p4vl0-dev/classic-facing/refs/heads/main/module.json",
+    "download": "https://github.com/p4vl0-dev/classic-facing/releases/latest/download/classic-facing.zip"
+}

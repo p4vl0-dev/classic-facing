@@ -1,0 +1,38 @@
+<div class="tab {{#if tab.active}} active{{/if}}" data-group="sheet" data-tab="classicFacing">
+	<div class="form-group">
+		<label for="{{rootId}}-indicatorDisabled">{{localize "CLASSIC_FACING.TokenConfig.DisableIndicator.Name"}}</label>
+		<div class="form-fields">
+			<input id="{{rootId}}-indicatorDisabled" type="checkbox" name="flags.classic-facing.indicatorDisabled" data-dtype="Boolean" {{checked indicatorDisabled}} />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="{{rootId}}-flipOrRotate">{{localize "CLASSIC_FACING.TokenConfig.FlipOrRotate.Name"}}</label>
+		<div class="form-fields">
+			<select id="{{rootId}}-flipOrRotate" name="flags.classic-facing.flipOrRotate" data-dtype="String">
+				{{selectOptions flipOrRotates selected=flipOrRotate localize=true}}
+			</select>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="{{rootId}}-facingDirection">{{localize "CLASSIC_FACING.TokenConfig.FacingDirection.Name"}}</label>
+		<div class="form-fields">
+			<select id="{{rootId}}-facingDirection" name="flags.classic-facing.facingDirection" data-dtype="String">
+				{{selectOptions facingDirections selected=facingDirection localize=true}}
+			</select>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="{{rootId}}-rotationOffset">{{localize "CLASSIC_FACING.TokenConfig.RotationOffset.Name"}}</label>
+		<div class="form-fields">
+			<input id="{{rootId}}-rotationOffset" type="number" name="flags.classic-facing.rotationOffset" data-dtype="Number" value="{{rotationOffset}}" placeholder="0" />
+		</div>
+		<p class="hint">{{localize "CLASSIC_FACING.TokenConfig.RotationOffset.Hint"}}</p>
+	</div>
+	<div class="form-group">
+		<label for="{{rootId}}-flipDisabled">{{localize "CLASSIC_FACING.TokenConfig.FlipDisabled.Name"}}</label>
+		<div class="form-fields">
+			<input id="{{rootId}}-flipDisabled" type="checkbox" name="flags.classic-facing.flipDisabled" data-dtype="Boolean" {{checked flipDisabled}} />
+		</div>
+		<p class="hint">{{localize "CLASSIC_FACING.TokenConfig.FlipDisabled.Hint"}}</p>
+	</div>
+</div>
